@@ -16,7 +16,7 @@ body{
 }
 main{
     background: linear-gradient(180deg, #2829af , #010129);
-    width: 40%;
+    width: 40vw;
     height: 65vh;
     display: flex;
     flex-direction: column;
@@ -48,6 +48,12 @@ form{
     align-items: center;
     justify-content: center;
 }
+select{
+    width: 90%;
+    outline: none;
+    border-radius: 5px;
+    padding: 0.3vw;
+}
 .amount{
     border: none;
     border-radius: 5px;
@@ -56,7 +62,6 @@ form{
     outline: none;
 }
 .info{
-    padding: 1rem 0;
     display: flex;
     align-items: center;
     justify-self: center;

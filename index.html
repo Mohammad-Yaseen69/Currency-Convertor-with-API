@@ -23,39 +23,29 @@
             <div class="country-selection">
                 <div class="from-section">
                     <h4>From</h4>
-                    <img src="https://flagsapi.com/US/shiny/64.png" alt="">
-                    <select name="" id="">
-                        <option value="US" selected>USD (US Dollar)</option>
-                        <option value="PK">PKR (Pakistan Rupee)</option>
-                        <option value="IN">INR (India Rupee)</option>
-                        <option value="AE">AED (Dubai Dirham)</option>
-                        <option value="SA">KSA (Saudi Riyal)</option>
+                    <img class="from-img" src="https://flagsapi.com/US/shiny/64.png" alt="">
+                    <select name="from" id="from">
+                        <!-- <option value="USD" selected>USD (US Dollar)</option> -->
                     </select>
                 </div>
                 <i class="fa-solid fa-arrow-right-arrow-left"></i>
                 <div class="to-section">
                     <h4>To</h4>
-                    <img src="https://flagsapi.com/PK/shiny/64.png" alt="">
-                    <select name="" id="">
-                        <option value="US">USD (US Dollar)</option>
-                        <option value="PK" selected>PKR (Pakistan Rupee)</option>
-                        <option value="IN">INR (India Rupee)</option>
-                        <option value="AE">AED (Dubai Dirham)</option>
-                        <option value="SA">KSA (Saudi Riyal)</option>
+                    <img class="to-img" src="https://flagsapi.com/PK/shiny/64.png" alt="">
+                    <select name="to" id="to">
+                        <!-- <option value="PKR" selected>PKR (Pakistan Rupee)</option> -->
                     </select>
                 </div>
             </div>
-            <div class="info">
-                <h3><span class="from">1</span> <span class="from-flag">USD</span> =
-                    <span class="to">283.35</span> <span class="to-flag">PKR</span>
-                </h3>
-                <button>Convert</button>
-            </div>
         </form>
+        <div class="info">
+            <h3> 1 USD = 283.35 PKR </h3>
+            <button class="btn">Convert</button>
+        </div>
     </main>
 
-    <script src="app.js"></script>
     <script src="countrycode.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
