@@ -56,9 +56,7 @@ btn.addEventListener('click', async () => {
 
 
     let exchangeRate = data[toCurr.value.toLowerCase()] * amount.value
-
-    document.querySelector('.from-amount').innerHTML = amount.value
-    document.querySelector('.from-code').innerHTML = fromCurr.value
-    document.querySelector('.to-amount').innerHTML = exchangeRate.toFixed(2)
-    document.querySelector('.to-code').innerHTML = toCurr.value
+    
+    document.querySelector('.final-amount').innerHTML = `${amount.value} ${fromCurr.value} = 
+                                                         ${exchangeRate.toFixed(2)} ${toCurr.value}`
 })
