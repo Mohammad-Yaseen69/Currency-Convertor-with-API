@@ -16,8 +16,8 @@ body{
 }
 main{
     background: linear-gradient(180deg, #2829af , #010129);
-    width: 40vw;
-    height: 65vh;
+    width: 55vw;
+    max-height: 75vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -67,6 +67,7 @@ select{
     justify-self: center;
     flex-direction: column;
     gap: 10px;
+    margin-bottom: 25px;
 }
 .info h3{
     font-size: 2vw;
@@ -83,4 +84,17 @@ button{
     background-color: #751d61;
     color: white;
     cursor: pointer;
+}
+
+@media screen and (max-width:696px) {
+    main{
+        width: 90vw;
+    }
+    .info h3{
+        font-size: 3vw;
+        padding: 1vw;
+    }
+    button{
+        padding: 1vw 2.5vw;
+    }
 }
