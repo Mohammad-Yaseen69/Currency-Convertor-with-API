@@ -15,7 +15,7 @@ body{
     color: white;
 }
 main{
-    background-color: #2829af;
+    background: linear-gradient(180deg, #2829af , #010129);
     width: 40%;
     height: 65vh;
     display: flex;
@@ -42,7 +42,7 @@ form{
     align-items: center;
     justify-content: space-evenly;
 }
-.from , .to{
+.from-section , .to-section{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -65,13 +65,17 @@ form{
 }
 .info h3{
     font-size: 2vw;
+    background-color: aliceblue;
+    color: black;
+    padding: 0.5vw;
+    border-radius: 5px;
 }
 button{
     padding: 0.5vw 2vw;
     border: none;
     border-radius: 8px;
     font-size: large;
-    background-color: black;
+    background-color: #751d61;
     color: white;
     cursor: pointer;
 }
